@@ -25,6 +25,7 @@ app.listen(3000, () => {
 
 app.use("/api/user", userRouter);
 app.use("/api/auth", authRouter);
+<<<<<<< HEAD
 
 // middleware for errors
 app.use((err, req, res, next) => {
@@ -36,3 +37,5 @@ app.use((err, req, res, next) => {
     message,
   });
 });
+=======
+>>>>>>> 5fc5a19843273cdd538bc9644c91b4da95d78e7a
